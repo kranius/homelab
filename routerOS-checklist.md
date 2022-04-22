@@ -33,7 +33,7 @@ Firewall has default ruleset and masquerade is activated.
 
 ##### Updating
 
-- __update software__ : System > Packages > Check for update > choose `stable` channel
+- __update software__ : System > Packages > Check for update > choose `stable` channel and update
 - __update firmware__ : System > Routerboard > Update
 - __update CPU freq__ (rb5009 only ?) : System > Routerboard > Settings > choose `auto` for CPU frequency
 - __reboot__ : System > Reboot
