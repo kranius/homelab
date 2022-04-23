@@ -1,8 +1,10 @@
 # My Homelab
 
-My networking/devops/sysadmin skills were a bit dusty. Also a fun hobby.
+Keeping my networking/devops/sysadmin skills up to date. Also a fun hobby.
+Going for low cost/low power solutions if possible.
 
 ## Current gear
+![](/homelab_v1.jpg)
 
 #### Infra
 
