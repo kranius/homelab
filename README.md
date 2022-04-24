@@ -40,8 +40,8 @@ Going for low cost/low power solutions if possible.
 
 #### LAN :
 
-- Network wide ad blocking
-- Proper firewalling
+- Network wide ad blocking (pihole)
+- Double firewall architecture
 - Wifi QoS
 - Segregated L2/L3 for IoT/smart stuff and guest wifi
 
@@ -49,5 +49,6 @@ Going for low cost/low power solutions if possible.
 ## References
 
 - [how to firewall (French gov)](https://www.ssi.gouv.fr/uploads/2018/01/guide_preconisations-pare-feux-zone-exposee-internet_anssi_pa_044_v1.pdf)
-- [openWRT docs]()
-- [routerOS docs]()
+- [openWRT docs](https://openwrt.org/docs/start)
+- [routerOS docs](https://help.mikrotik.com/docs/display/ROS/RouterOS)
+- [lafibre.info](https://lafibre.info/) (french networking forum)
