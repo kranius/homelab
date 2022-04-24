@@ -16,12 +16,12 @@ Going for low cost/low power solutions if possible.
 
 #### End
 
-- User machines : multiple phones, tablets, laptops, pc/consoles
+- User machines : multiple phones, tablets, various laptops, pc/consoles (my main machine is a M1 Pro mbp)
 - IoT/Smart home stuff : TV
 
 #### Next purchases
 
-- Replacing the mbp with something beefier (currently looking at 1L thin clients such as [this]() or [that]())
+- Replacing the aging mbp with something beefier (currently looking at 1L thin clients such as [these](https://www.lenovo.com/us/en/c/desktops/thinkcentre/m-series-tiny) or [those](https://www.hp.com/us-en/shop/mlp/business-solutions/desktops-and-workstations))
 - Upgrading the raspberry to a gen 4 (maybe one day they will be available again for a reasonable price)
 - Better storage solution (looking to build a ZFS system or a Ceph cluster, maybe going for ~10 TB usable)
 
@@ -34,15 +34,16 @@ Going for low cost/low power solutions if possible.
 #### DMZ :
 
 - DNS filtering (running on the raspberry)
-- DNS over HTTPS, terminated on the rb5009
+- DNS over HTTPS, terminated on the rb5009 (I was running a Cloudflare tunnel on the rasp but I'm trying the feature on the MikroTik)
+- USB storage as NFS (running on the raspberry, I don't need insane iops but it's starting to show it's age)
 - Container orchestration (I use the mbp to run non criticial services, basically my toy low-powered server)
-
 
 #### LAN :
 
+- Network wide ad blocking
 - Proper firewalling
 - Wifi QoS
-- Segregated IoT/smart stuff
+- Segregated L2/L3 for IoT/smart stuff and guest wifi
 
 
 ## References
