@@ -4,20 +4,26 @@ Keeping my networking/devops/sysadmin skills up to date. Also a fun hobby.
 Going for low cost/low power solutions if possible.
 
 ## Current gear
-![](/homelab_v1.jpg)
+![dirty cardboard rack](/homelab_v1.jpg)
 
 #### Infra
 
-- 1x [MikroTik rb5009]() running routerOS v7
-- 2x [Xiaomi router 4a gigabit]() flashed with [openWRT]() (check instructions for flashing)
-- 1x [Raspberry Pi 1 model B 512 MB]()
+- 1x FTTLA 400/40 SFR modem
+- 1x [MikroTik rb5009](https://mikrotik.com/product/rb5009ug_s_in) running routerOS v7 (see my [checklist]())
+- 2x [Xiaomi router 4a gigabit](https://www.mi.com/fr/mi-router-4a-gigabit-edition/specs) flashed with [openWRT](https://openwrt.org/) (check my [instructions]() for flashing)
+- 1x Raspberry Pi 1 model B 512 MB
 - 1x 2014 macbook pro (i5/8GB/256GB)
-- 1x NAS (still deciding what should I get)
 
 #### End
 
 - User machines : multiple phones, tablets, laptops, pc/consoles
 - IoT/Smart home stuff : TV
+
+#### Next purchases
+
+- Replacing the mbp with something beefier (currently looking at 1L thin clients such as [this]() or [that]())
+- Upgrading the raspberry to a gen 4 (maybe one day they will be available again for a reasonable price)
+- Better storage solution (looking to build a ZFS system or a Ceph cluster, maybe going for ~10 TB usable)
 
 ## Services
 
