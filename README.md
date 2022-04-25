@@ -45,6 +45,7 @@ Going for low cost/low power solutions if possible.
 - Wifi QoS
 - Segregated L2/L3 for IoT/smart stuff and guest wifi
 
+![dual fw diagram](/fu750903.jpg)
 
 ## References
 
