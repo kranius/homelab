@@ -41,6 +41,7 @@ Going for low cost/low power solutions if possible.
 
 #### LAN :
 
+- Sonarr/Radarr
 - Network wide ad blocking (pihole)
 - Double firewall architecture
 - Wifi QoS
