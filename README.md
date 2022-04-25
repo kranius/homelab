@@ -21,6 +21,7 @@ Going for low cost/low power solutions if possible.
 
 #### Next purchases
 
+- Moving everything to a safer & cleaner space
 - Replacing the aging mbp with something beefier (currently looking at 1L thin clients such as [these](https://www.lenovo.com/us/en/c/desktops/thinkcentre/m-series-tiny) or [those](https://www.hp.com/us-en/shop/mlp/business-solutions/desktops-and-workstations))
 - Upgrading the raspberry to a gen 4 (maybe one day they will be available again for a reasonable price)
 - Better storage solution (looking to build a ZFS system or a Ceph cluster, maybe going for ~10 TB usable)
