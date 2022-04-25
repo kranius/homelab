@@ -49,6 +49,7 @@ Going for low cost/low power solutions if possible.
 ## References
 
 - [how to firewall (French gov)](https://www.ssi.gouv.fr/uploads/2018/01/guide_preconisations-pare-feux-zone-exposee-internet_anssi_pa_044_v1.pdf)
+- [how to design a secure gateway (french gov)](https://www.ssi.gouv.fr/uploads/2020/06/anssi-guide-passerelle_internet_securisee-v3.pdf)
 - [openWRT docs](https://openwrt.org/docs/start)
 - [routerOS docs](https://help.mikrotik.com/docs/display/ROS/RouterOS)
 - [lafibre.info](https://lafibre.info/) (french networking forum)
