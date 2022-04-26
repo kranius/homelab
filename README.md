@@ -47,7 +47,7 @@ Going for low cost/low power solutions if possible.
 - Network wide ad blocking (pihole)
 - Double firewall architecture
 - Wifi QoS
-- WPA3 Entreprise
+- 802.1X Dynamic VLAN
 - Segregated L2/L3 for IoT/smart stuff and guest wifi
 
 ![dual fw diagram](/fu750903.jpg)
