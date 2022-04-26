@@ -34,6 +34,7 @@ Going for low cost/low power solutions if possible.
 
 #### DMZ :
 
+- RADIUS auth server
 - DNS filtering (running on the raspberry)
 - DNS over HTTPS, terminated on the rb5009 (I was running a Cloudflare tunnel on the rasp but I'm trying the feature on the MikroTik)
 - USB storage as NFS (running on the raspberry, I don't need insane iops but it's starting to show it's age)
@@ -42,9 +43,11 @@ Going for low cost/low power solutions if possible.
 #### LAN :
 
 - Sonarr/Radarr
+- HomeAssistant
 - Network wide ad blocking (pihole)
 - Double firewall architecture
 - Wifi QoS
+- WPA3 Entreprise
 - Segregated L2/L3 for IoT/smart stuff and guest wifi
 
 ![dual fw diagram](/fu750903.jpg)
