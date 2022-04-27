@@ -58,8 +58,8 @@ for unbricking software & instructions, check openwrt infos (see below for link)
 - get your ip on the xiaomi LAN, something like 192.168.31.x (check web UI or ifconfig)
 - type `python3 -m http.webserver 8080`
 - go back to root shell on the ssh session (or reconnect if needed)
-- type `curl http://COMPUTER.LAN.IP.HERE/firmware.bin --output firmware.bin`
-- type `sha256sum firmware.bin`
+- type `cd /tmp`
+- type `curl http://COMPUTER.LAN.IP.HERE:8080/firmware.bin --output firmware.bin`
 - verify if hash is the same as the one displayed on the firmware selector website (**important step**, if you get different hashes, redownload firmware)
 - if hash is correct, you can now flash the firmware
 - type `mtd -e OS1 -r write firmware.bin OS1`
