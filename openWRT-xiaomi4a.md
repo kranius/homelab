@@ -46,8 +46,9 @@ for unbricking software & instructions, check openwrt infos (see below for link)
 - type `pip3 install -r requirements.txt`
 - type `python3 remote_command_execution_vulnerability.py`
 - follow instructions
-- if everything went OK, you can now login :
+- if everything went OK, you can now login with :
 - type `ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc -o UserKnownHostFile=/dev/null root@192.168.31.1`
+- username is `root` with password `root`
 - you are now root on your xiaomi router 4a, time to install openwrt !
 
 
