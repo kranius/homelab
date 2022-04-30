@@ -91,3 +91,46 @@ traceroute to 1.1.1.1 (1.1.1.1), 30 hops max, 60 byte packets
 default via 192.168.88.1 dev eth0 proto dhcp src 192.168.88.252 metric 202 
 192.168.88.0/24 dev eth0 proto dhcp scope link src 192.168.88.252 metric 202 
 ```
+
+## [netstat](https://www.man7.org/linux/man-pages/man8/netstat.8.html)
+
+- -n, --numeric
+- -t, --tcp
+- -a, --all
+
+```
+$ netstat -nta
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:2442            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:4711          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN     
+tcp        0     36 192.168.88.252:2442     192.168.88.251:51398    ESTABLISHED
+tcp6       0      0 :::2442                 :::*                    LISTEN     
+tcp6       0      0 :::5432                 :::*                    LISTEN     
+tcp6       0      0 :::53                   :::*                    LISTEN     
+tcp6       0      0 ::1:4711                :::*                    LISTEN     
+tcp6       0      0 :::80                   :::*                    LISTEN     
+
+```
+
+- -p --program (need root)
+
+```
+$ sudo netstat -ntap
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:2442            0.0.0.0:*               LISTEN      373/sshd: /usr/sbin 
+tcp        0      0 127.0.0.1:4711          0.0.0.0:*               LISTEN      562/pihole-FTL      
+tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN      404/postgres        
+tcp        0      0 0.0.0.0:53              0.0.0.0:*               LISTEN      562/pihole-FTL      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      509/lighttpd        
+tcp        0    304 192.168.88.252:2442     192.168.88.251:51398    ESTABLISHED 9013/sshd: pi [priv 
+tcp6       0      0 :::2442                 :::*                    LISTEN      373/sshd: /usr/sbin 
+tcp6       0      0 :::5432                 :::*                    LISTEN      404/postgres        
+tcp6       0      0 :::53                   :::*                    LISTEN      562/pihole-FTL      
+tcp6       0      0 ::1:4711                :::*                    LISTEN      562/pihole-FTL      
+tcp6       0      0 :::80                   :::*                    LISTEN      509/lighttpd       
+```
