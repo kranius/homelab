@@ -63,3 +63,31 @@ traceroute to 1.1.1.1 (1.1.1.1), 30 hops max, 60 byte packets
 10  one.one.one.one (1.1.1.1) [AS13335]  28.834 ms  28.598 ms  28.579 ms
 
 ```
+
+## [ip](https://www.man7.org/linux/man-pages/man8/ip.8.html)
+
+- a (shortcut for `addresss`)
+
+```
+ $ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether b8:27:eb:73:52:35 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.88.252/24 brd 192.168.88.255 scope global dynamic noprefixroute eth0
+       valid_lft 457sec preferred_lft 382sec
+    inet6 fe80::ba27:ebff:fe73:5235/64 scope link 
+       valid_lft forever preferred_lft forever
+```
+
+- r (shortcout for `route`)
+
+```
+ $ ip r
+default via 192.168.88.1 dev eth0 proto dhcp src 192.168.88.252 metric 202 
+192.168.88.0/24 dev eth0 proto dhcp scope link src 192.168.88.252 metric 202 
+```
