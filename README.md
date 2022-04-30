@@ -9,8 +9,8 @@ Going for low cost/low power solutions if possible.
 #### Infra
 
 - 1x FTTLA 400/40 SFR modem
-- 1x [MikroTik rb5009](https://mikrotik.com/product/rb5009ug_s_in) running routerOS v7 (see my [checklist]())
-- 2x [Xiaomi router 4a gigabit](https://www.mi.com/fr/mi-router-4a-gigabit-edition/specs) flashed with [openWRT](https://openwrt.org/) (check my [instructions]() for flashing)
+- 1x [MikroTik rb5009](https://mikrotik.com/product/rb5009ug_s_in) running routerOS v7 (see my [checklist](/routerOS-checklist.md))
+- 2x [Xiaomi router 4a gigabit](https://www.mi.com/fr/mi-router-4a-gigabit-edition/specs) flashed with [openWRT](https://openwrt.org/) (check my [instructions](/openWRT-xiaomi4a.md) for flashing)
 - 1x Raspberry Pi 1 model B 512 MB
 - 1x 2014 macbook pro (i5/8GB/256GB)
 
