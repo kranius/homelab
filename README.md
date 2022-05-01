@@ -21,7 +21,7 @@ Going for low cost/low power solutions if possible.
 
 #### Next purchases
 
-- Moving everything to a safer & cleaner space
+- Moving everything to a safer & cleaner space (going rackmount seems overkill)
 - Replacing the aging mbp with something beefier (currently looking at 1L thin clients such as [these](https://www.lenovo.com/us/en/c/desktops/thinkcentre/m-series-tiny) or [those](https://www.hp.com/us-en/shop/mlp/business-solutions/desktops-and-workstations))
 - Upgrading the raspberry to a gen 4 (maybe one day they will be available again for a reasonable price)
 - Better storage solution (looking to build a ZFS system or a Ceph cluster, maybe going for ~10 TB usable)
@@ -35,9 +35,8 @@ Going for low cost/low power solutions if possible.
 #### DMZ :
 
 - RADIUS auth server
-- DNS filtering (running on the raspberry)
 - DNS over HTTPS, terminated on the rb5009 (I was running a Cloudflare tunnel on the rasp but I'm trying the feature on the MikroTik)
-- USB storage as NFS (running on the raspberry, I don't need insane iops but it's starting to show it's age)
+- USB storage as NFS (I don't need insane iops but it's starting to show it's age)
 - Container orchestration (I use the mbp to run non criticial services, basically my toy low-powered server)
 
 #### LAN :
@@ -51,6 +50,11 @@ Going for low cost/low power solutions if possible.
 - Segregated L2/L3 for IoT/smart stuff and guest wifi
 
 ![dual fw diagram](/fu750903.jpg)
+
+## TODO
+
+- add wireguard tunnel from rasp to rb5009
+- fix vlan configuration
 
 ## References
 
