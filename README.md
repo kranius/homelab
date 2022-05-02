@@ -4,7 +4,6 @@ Keeping my networking/devops/sysadmin skills up to date. Also a fun hobby.
 Going for low cost/low power solutions if possible.
 
 ## Current gear
-![dirty cardboard rack](/homelab_v1.jpg)
 
 #### Infra
 
