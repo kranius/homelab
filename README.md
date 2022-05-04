@@ -40,6 +40,7 @@ Going for low cost/low power solutions if possible.
 
 #### LAN :
 
+- JellyFin
 - Sonarr/Radarr
 - HomeAssistant
 - Network wide ad blocking (pihole)
