@@ -32,7 +32,7 @@ Going for low cost/low power solutions if possible.
 - Wireguard supporting roaming clients ("[road warrior](https://openwrt.org/docs/guide-user/services/vpn/strongswan/roadwarrior)" config) and hiding my IP behind a cheap VPS
 
 
-![roaming clients](/roadwarrior.jpg)
+![roaming clients](/roadwarrior.png)
 
 #### DMZ :
 
