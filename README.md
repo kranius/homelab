@@ -29,7 +29,10 @@ Going for low cost/low power solutions if possible.
 
 #### Exposed :
 
-- Wireguard supporting roaming clients ("[road warrior]()" config) and hiding my IP behind a cheap VPS
+- Wireguard supporting roaming clients ("[road warrior](https://openwrt.org/docs/guide-user/services/vpn/strongswan/roadwarrior)" config) and hiding my IP behind a cheap VPS
+
+
+![roaming clients](/roadwarrior.jpg)
 
 #### DMZ :
 
