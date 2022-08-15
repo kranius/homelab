@@ -56,7 +56,7 @@ for unbricking software & instructions, check openwrt infos (see below for link)
 
 - open another shell in the directory where you downloaded openwrt firmware (we assume you named it **firmware.bin**)
 - get your ip on the xiaomi LAN, something like 192.168.31.x (check web UI or ifconfig)
-- type `python3 -m http.webserver 8080`
+- type `python3 -m http.server 8080`
 - go back to root shell on the ssh session (or reconnect if needed)
 - type `cd /tmp`
 - type `curl http://COMPUTER.LAN.IP.HERE:8080/firmware.bin --output firmware.bin`
